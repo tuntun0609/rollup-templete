@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"module": "ESNext",
+		"allowJs": true,
+		"baseUrl": "."
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"./**/*.ts",
+		"./**/*.tsx"
+	],
+}
