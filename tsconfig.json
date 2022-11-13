@@ -1,9 +1,18 @@
 {
 	"compilerOptions": {
+		"jsx": "preserve",
+		"baseUrl": "./",
+    "outDir": "./dist",
+		"target": "es5",
 		"lib": ["dom", "dom.iterable", "esnext"],
-		"module": "ESNext",
+		"module": "esnext",
 		"allowJs": true,
-		"baseUrl": "."
+		"declaration": true,
+		"declarationDir": "./dist/types",
+		"emitDeclarationOnly": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
 	},
 	"exclude": [
 		"node_modules"
